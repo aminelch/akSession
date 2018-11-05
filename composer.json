@@ -1,0 +1,13 @@
+{
+    "name": "aminelch/ak-session",
+    "description": "a simple package to manipulate session in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amine L'ch",
+            "email": "aminelch95@gmail.com"
+        }
+    ],
+    "require": {}
+}
