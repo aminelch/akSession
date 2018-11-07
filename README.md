@@ -1,11 +1,12 @@
 # ak-Session
 
-[![AUR license](https://img.shields.io/aur/license/:package.svg)](https://github.com/aminelch/akSession/blob/master/licence.md)
-![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg?style=plastic)
+![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg)
  
+![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
+
 
 A simple PHP package , Provides session management functionality.
-
+ 
 
 ## Installation Process
 
