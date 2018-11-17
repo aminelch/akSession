@@ -1,8 +1,20 @@
 <?php
 require "src/akSession.php";
-$session = akSession::getInstance();
 
-print_r($session);
+//On crée l'object via la méthode getInstance(); 
+$session = akSession::getInstance(); 
 
-$session->set('h','am');
-print_r($session);
+
+// $session->set("user","amine");
+// $session->set("id",uniqid());
+
+
+// var_dump($session);
+
+
+ echo "Bonjour ". $session->get("id");
+
+
+echo "<pre> <br>";
+print_r($_SESSION);
+echo "</pre> <br>";
