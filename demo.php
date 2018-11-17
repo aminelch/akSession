@@ -2,7 +2,7 @@
 require "src/akSession.php";
 
 //On crée l'object via la méthode getInstance(); 
-$session = akSession::getInstance(); 
+$session = akSession::init();
 
 
 // $session->set("user","amine");

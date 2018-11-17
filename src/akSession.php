@@ -25,10 +25,10 @@ class akSession
         var_dump("Instance created with id:". uniqid());
     }
     /**
-    * Return a single instance
+    * Return a single instance and initialize the obj
     * @return object
     */
-    public static function getInstance(): akSession
+    public static function init(): akSession
     {
         var_dump("instance called");
         
@@ -86,5 +86,12 @@ class akSession
         if (array_key_exists($key, $_SESSION)) {
             unset($_SESSION[$key]);
         }
+    }
+
+    /**
+     * Destroys all data registered to a session
+     */
+    public function destroy():void {
+        session_destroy();
     }
 }
