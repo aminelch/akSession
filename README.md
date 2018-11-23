@@ -36,7 +36,11 @@ Delete specific key.
 
 	 $session->unset($key);
 
+## Contribution
+
+Please create issue first if you're planning to contribute.
 ## Licence
+
 The MIT License (MIT)
 This package was written by Amine L'ch <aminelch95@gmail.com> <aminelch@ubuntu.com>
 

@@ -11,8 +11,9 @@ $session = akSession::init();
 
 // var_dump($session);
 
-
- echo "Bonjour ". $session->get("id");
+echo $session->getStatus();
+die();
+ //echo "Bonjour ". $session->get("id");
 
 
 echo "<pre> <br>";
