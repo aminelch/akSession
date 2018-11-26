@@ -48,11 +48,12 @@ Destroys all data registered to a session
 	 
 ## Contribution
 
-Please create issue first if you're planning to contribute.
-for more informations, check the [contributing](https://github.com/aminelch/akSession/blob/master/CONTRIBUTING) file
+
+Please refer to [CONTRIBUTING](https://github.com/aminelch/akSession/blob/master/CONTRIBUTING)  for information on how to contribute to **akSession**
 ## Licence
 
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/aminelch/akSession/blob/master/LICENSE.md)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/aminelch/akSession/blob/master/LICENSE)
+
 
 
 
